@@ -7,8 +7,8 @@ public class MonoBehavious : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Player player = new Player(10);
-        //player.TakeDamage(3);
+       //Player player = new Player(10);
+       //player.TakeDamage(3);
     }
 
 
@@ -45,4 +45,8 @@ public class projectile : MonoBehaviour
             speed = 100f;
             Debug.Log("Speed was zero. AutoFire set speed to 100 and launched!");
         }   
+}
+public class Player
+{
+    public int health;
 }
