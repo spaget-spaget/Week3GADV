@@ -16,7 +16,7 @@ public class AsteroidColourTinter : MonoBehaviour
                 isBlue = true;
             }
             else{
-                // Change the color to blue
+                
                 SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
                 spriteRenderer.color = originalColor;
                 isBlue = false;
