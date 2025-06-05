@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Explodeable : MonoBehaviour
+public class Explodable : MonoBehaviour
 {
     public void Explode()
     {
@@ -17,8 +17,7 @@ public class Item : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GetComponent<Explodeable>()?.Explode();
+            GetComponent<Explodable>()?.Explode();
         }
     }
 }
-

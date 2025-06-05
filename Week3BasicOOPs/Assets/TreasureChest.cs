@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/*
+
 public class TreasureChest : MonoBehaviour
 {
+    private bool MasterKey = false;
     
     public virtual void Unlock()
     {
@@ -13,7 +14,7 @@ public class TreasureChest : MonoBehaviour
     {
         if (MasterKey == true) 
         {
-            Debug.Log("You dont have a MasterKey.")
+            Debug.Log("You dont have a MasterKey.");
         }
         else
         {
@@ -41,18 +42,16 @@ public class AncientChest : TreasureChest
 
 public class MagicChest : TreasureChest
 {
-    if(bool MasterKey == true){
+    
         public override void Unlock(bool MasterKey)
         {
             Debug.Log("Bonus Money! You unlock the chest with a master key.");
         }
-    }
-    else
-    {
+    
+    
         public override void Unlock()
-        {
+        { 
             Debug.Log("You unlock the Magic chest with magic.");
         }
-    }
+    
 }
-*/
